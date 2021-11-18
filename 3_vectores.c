@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include "libprueba.h"
 
 int main(int argc, char *argv[]) {
@@ -18,5 +19,6 @@ int main(int argc, char *argv[]) {
   // implementar estas dos funciones en libprueba.c
   suma_vectorial(u, v, r, dimension);
   print_array(r, dimension);
+
   return 0;
 }
